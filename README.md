@@ -1,15 +1,15 @@
 # Comparative Study of Density Estimators
 
-Analysis of 5 kernel density estimators (Parzen-Rosenblatt, Wolverton-Wagner-Yamato, Weglan-Davies, Révész variants) applied to exponential distributions.
+Analysis of 5 kernel density estimators (Parzen-Rosenblatt, Wolverton-Wagner-Yamato, Wegman-Davies, Révész variants) applied to exponential distributions.
 
 Key results:
 - Performance benchmarks
 - Parameter optimization
 - Convergence analysis
 
-Structure:
-/code - Python implementation
-/figures - Output visualizations
-/report - LaTeX sources and PDF
+Group project (4 students), supervised by Bernard Bercu.
 
-Requirements: Python 3, NumPy, Matplotlib, SciPy
+Files:
+- main.pdf / main.tex — report (theory, convergence analysis, results)
+- code0.pdf / code0.tex — Python implementation (exported notebook)
+- code1.pdf — averaged Révész estimator, convergence plots
